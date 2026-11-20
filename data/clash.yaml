@@ -5,70 +5,70 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇲🇾 MYS-1B, server: api.frnhk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: api.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇩🇪 DE-FREE-1A, server: signal.frnhk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: signal.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-VIP-22-1B, server: media.gosthk.site, port: 57180, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: media.gosthk.site, skip-cert-verify: false}
-  - {name: 🇹🇼 TW-VIP-33-1B, server: theme.lovehk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: theme.lovehk.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-VIP-22-1A, server: media.gosthk.site, port: 57180, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: media.gosthk.site, skip-cert-verify: false}
-  - {name: 🇲🇾 MYS-1A, server: api.frnhk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: api.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇩🇪 DE-FREE-1B, server: signal.frnhk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: signal.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 SG-FREE-1B, server: room.frnhk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: room.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 SG-FREE-1A, server: room.frnhk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: room.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-FREE-1B, server: im.frnhk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: im.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇹🇼 TW-VIP-33-1A, server: theme.lovehk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: theme.lovehk.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 USA-VIP-44-1B, server: im.lovehk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: im.lovehk.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 USA-VIP-44-1A, server: im.lovehk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: im.lovehk.xyz, skip-cert-verify: false}
-  - {name: EUR-FREE-1A, server: edge.frnhk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: edge.frnhk.xyz, skip-cert-verify: false}
-  - {name: EUR-FREE-1B, server: edge.frnhk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: edge.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-FREE-1A, server: im.frnhk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: im.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 HK-VIP-2-1B, server: turn.gosthk.site, port: 57180, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: turn.gosthk.site, skip-cert-verify: false}
-  - {name: 🇭🇰 HK-VIP-2-1A, server: turn.gosthk.site, port: 57180, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: turn.gosthk.site, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-FREE-1B, server: room.frnhk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: room.frnhk.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-VIP-2-1B, server: turn.gosthk.site, port: 57180, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: turn.gosthk.site, skip-cert-verify: false}
+  - {name: 🇹🇼 TW-VIP-33-1B, server: theme.lovehk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: theme.lovehk.xyz, skip-cert-verify: false}
+  - {name: 🇩🇪 DE-FREE-1B, server: signal.frnhk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: signal.frnhk.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 USA-VIP-44-1A, server: im.lovehk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: im.lovehk.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-FREE-1A, server: im.frnhk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: im.frnhk.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-FREE-1A, server: room.frnhk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: room.frnhk.xyz, skip-cert-verify: false}
+  - {name: 🇩🇪 DE-FREE-1A, server: signal.frnhk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: signal.frnhk.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-VIP-22-1A, server: media.gosthk.site, port: 57180, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: media.gosthk.site, skip-cert-verify: false}
+  - {name: 🇹🇼 TW-VIP-33-1A, server: theme.lovehk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: theme.lovehk.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 USA-VIP-44-1B, server: im.lovehk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: im.lovehk.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-VIP-22-1B, server: media.gosthk.site, port: 57180, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: media.gosthk.site, skip-cert-verify: false}
+  - {name: EUR-FREE-1A, server: edge.frnhk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: edge.frnhk.xyz, skip-cert-verify: false}
+  - {name: EUR-FREE-1B, server: edge.frnhk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: edge.frnhk.xyz, skip-cert-verify: false}
+  - {name: 🇲🇾 MYS-1B, server: api.frnhk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: api.frnhk.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-FREE-1B, server: im.frnhk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: im.frnhk.xyz, skip-cert-verify: false}
+  - {name: 🇲🇾 MYS-1A, server: api.frnhk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: api.frnhk.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-VIP-2-1A, server: turn.gosthk.site, port: 57180, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: turn.gosthk.site, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇲🇾 MYS-1B
-      - 🇩🇪 DE-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇹🇼 TW-VIP-33-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇲🇾 MYS-1A
-      - 🇩🇪 DE-FREE-1B
       - 🇸🇬 SG-FREE-1B
+      - 🇭🇰 HK-VIP-2-1B
+      - 🇹🇼 TW-VIP-33-1B
+      - 🇩🇪 DE-FREE-1B
+      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-FREE-1A
       - 🇸🇬 SG-FREE-1A
-      - 🇯🇵 JP-FREE-1B
+      - 🇩🇪 DE-FREE-1A
+      - 🇯🇵 JP-VIP-22-1A
       - 🇹🇼 TW-VIP-33-1A
       - 🇺🇸 USA-VIP-44-1B
-      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-VIP-22-1B
       - EUR-FREE-1A
       - EUR-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇭🇰 HK-VIP-2-1B
+      - 🇲🇾 MYS-1B
+      - 🇯🇵 JP-FREE-1B
+      - 🇲🇾 MYS-1A
       - 🇭🇰 HK-VIP-2-1A
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇲🇾 MYS-1B
-      - 🇩🇪 DE-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇹🇼 TW-VIP-33-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇲🇾 MYS-1A
-      - 🇩🇪 DE-FREE-1B
       - 🇸🇬 SG-FREE-1B
+      - 🇭🇰 HK-VIP-2-1B
+      - 🇹🇼 TW-VIP-33-1B
+      - 🇩🇪 DE-FREE-1B
+      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-FREE-1A
       - 🇸🇬 SG-FREE-1A
-      - 🇯🇵 JP-FREE-1B
+      - 🇩🇪 DE-FREE-1A
+      - 🇯🇵 JP-VIP-22-1A
       - 🇹🇼 TW-VIP-33-1A
       - 🇺🇸 USA-VIP-44-1B
-      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-VIP-22-1B
       - EUR-FREE-1A
       - EUR-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇭🇰 HK-VIP-2-1B
+      - 🇲🇾 MYS-1B
+      - 🇯🇵 JP-FREE-1B
+      - 🇲🇾 MYS-1A
       - 🇭🇰 HK-VIP-2-1A
   - name: 🎥 NETFLIX
     type: select
@@ -76,23 +76,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇲🇾 MYS-1B
-      - 🇩🇪 DE-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇹🇼 TW-VIP-33-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇲🇾 MYS-1A
-      - 🇩🇪 DE-FREE-1B
       - 🇸🇬 SG-FREE-1B
+      - 🇭🇰 HK-VIP-2-1B
+      - 🇹🇼 TW-VIP-33-1B
+      - 🇩🇪 DE-FREE-1B
+      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-FREE-1A
       - 🇸🇬 SG-FREE-1A
-      - 🇯🇵 JP-FREE-1B
+      - 🇩🇪 DE-FREE-1A
+      - 🇯🇵 JP-VIP-22-1A
       - 🇹🇼 TW-VIP-33-1A
       - 🇺🇸 USA-VIP-44-1B
-      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-VIP-22-1B
       - EUR-FREE-1A
       - EUR-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇭🇰 HK-VIP-2-1B
+      - 🇲🇾 MYS-1B
+      - 🇯🇵 JP-FREE-1B
+      - 🇲🇾 MYS-1A
       - 🇭🇰 HK-VIP-2-1A
   - name: ⛔️ 广告拦截
     type: select
@@ -112,23 +112,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇲🇾 MYS-1B
-      - 🇩🇪 DE-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇹🇼 TW-VIP-33-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇲🇾 MYS-1A
-      - 🇩🇪 DE-FREE-1B
       - 🇸🇬 SG-FREE-1B
+      - 🇭🇰 HK-VIP-2-1B
+      - 🇹🇼 TW-VIP-33-1B
+      - 🇩🇪 DE-FREE-1B
+      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-FREE-1A
       - 🇸🇬 SG-FREE-1A
-      - 🇯🇵 JP-FREE-1B
+      - 🇩🇪 DE-FREE-1A
+      - 🇯🇵 JP-VIP-22-1A
       - 🇹🇼 TW-VIP-33-1A
       - 🇺🇸 USA-VIP-44-1B
-      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-VIP-22-1B
       - EUR-FREE-1A
       - EUR-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇭🇰 HK-VIP-2-1B
+      - 🇲🇾 MYS-1B
+      - 🇯🇵 JP-FREE-1B
+      - 🇲🇾 MYS-1A
       - 🇭🇰 HK-VIP-2-1A
   - name: 🌏 国内媒体
     type: select
@@ -140,46 +140,46 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇲🇾 MYS-1B
-      - 🇩🇪 DE-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇹🇼 TW-VIP-33-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇲🇾 MYS-1A
-      - 🇩🇪 DE-FREE-1B
       - 🇸🇬 SG-FREE-1B
+      - 🇭🇰 HK-VIP-2-1B
+      - 🇹🇼 TW-VIP-33-1B
+      - 🇩🇪 DE-FREE-1B
+      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-FREE-1A
       - 🇸🇬 SG-FREE-1A
-      - 🇯🇵 JP-FREE-1B
+      - 🇩🇪 DE-FREE-1A
+      - 🇯🇵 JP-VIP-22-1A
       - 🇹🇼 TW-VIP-33-1A
       - 🇺🇸 USA-VIP-44-1B
-      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-VIP-22-1B
       - EUR-FREE-1A
       - EUR-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇭🇰 HK-VIP-2-1B
+      - 🇲🇾 MYS-1B
+      - 🇯🇵 JP-FREE-1B
+      - 🇲🇾 MYS-1A
       - 🇭🇰 HK-VIP-2-1A
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇲🇾 MYS-1B
-      - 🇩🇪 DE-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇹🇼 TW-VIP-33-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇲🇾 MYS-1A
-      - 🇩🇪 DE-FREE-1B
       - 🇸🇬 SG-FREE-1B
+      - 🇭🇰 HK-VIP-2-1B
+      - 🇹🇼 TW-VIP-33-1B
+      - 🇩🇪 DE-FREE-1B
+      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-FREE-1A
       - 🇸🇬 SG-FREE-1A
-      - 🇯🇵 JP-FREE-1B
+      - 🇩🇪 DE-FREE-1A
+      - 🇯🇵 JP-VIP-22-1A
       - 🇹🇼 TW-VIP-33-1A
       - 🇺🇸 USA-VIP-44-1B
-      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-VIP-22-1B
       - EUR-FREE-1A
       - EUR-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇭🇰 HK-VIP-2-1B
+      - 🇲🇾 MYS-1B
+      - 🇯🇵 JP-FREE-1B
+      - 🇲🇾 MYS-1A
       - 🇭🇰 HK-VIP-2-1A
   - name: 🍎 苹果服务
     type: select
@@ -187,23 +187,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇲🇾 MYS-1B
-      - 🇩🇪 DE-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇹🇼 TW-VIP-33-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇲🇾 MYS-1A
-      - 🇩🇪 DE-FREE-1B
       - 🇸🇬 SG-FREE-1B
+      - 🇭🇰 HK-VIP-2-1B
+      - 🇹🇼 TW-VIP-33-1B
+      - 🇩🇪 DE-FREE-1B
+      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-FREE-1A
       - 🇸🇬 SG-FREE-1A
-      - 🇯🇵 JP-FREE-1B
+      - 🇩🇪 DE-FREE-1A
+      - 🇯🇵 JP-VIP-22-1A
       - 🇹🇼 TW-VIP-33-1A
       - 🇺🇸 USA-VIP-44-1B
-      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-VIP-22-1B
       - EUR-FREE-1A
       - EUR-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇭🇰 HK-VIP-2-1B
+      - 🇲🇾 MYS-1B
+      - 🇯🇵 JP-FREE-1B
+      - 🇲🇾 MYS-1A
       - 🇭🇰 HK-VIP-2-1A
   - name: 🎯 全球直连
     type: select
@@ -220,23 +220,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇲🇾 MYS-1B
-      - 🇩🇪 DE-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇹🇼 TW-VIP-33-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇲🇾 MYS-1A
-      - 🇩🇪 DE-FREE-1B
       - 🇸🇬 SG-FREE-1B
+      - 🇭🇰 HK-VIP-2-1B
+      - 🇹🇼 TW-VIP-33-1B
+      - 🇩🇪 DE-FREE-1B
+      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-FREE-1A
       - 🇸🇬 SG-FREE-1A
-      - 🇯🇵 JP-FREE-1B
+      - 🇩🇪 DE-FREE-1A
+      - 🇯🇵 JP-VIP-22-1A
       - 🇹🇼 TW-VIP-33-1A
       - 🇺🇸 USA-VIP-44-1B
-      - 🇺🇸 USA-VIP-44-1A
+      - 🇯🇵 JP-VIP-22-1B
       - EUR-FREE-1A
       - EUR-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇭🇰 HK-VIP-2-1B
+      - 🇲🇾 MYS-1B
+      - 🇯🇵 JP-FREE-1B
+      - 🇲🇾 MYS-1A
       - 🇭🇰 HK-VIP-2-1A
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
