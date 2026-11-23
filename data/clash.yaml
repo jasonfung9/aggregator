@@ -5,111 +5,99 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇹🇼 TW-VIP-2-33-1B, server: theme.lovehk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: theme.lovehk.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 USA-VIP-2-44-1A, server: im.lovehk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: im.lovehk.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 SG-FREE-1B, server: room.frnhk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: room.frnhk.xyz, skip-cert-verify: false}
-  - {name: EUR-FREE-1B, server: edge.frnhk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: edge.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇩🇪 DE-FREE-1B, server: signal.frnhk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: signal.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇺🇸 USA-VIP-2-11-1B, server: signal.lovehk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: signal.lovehk.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 HK-VIP-1A, server: sfu.gosthk.site, port: 57180, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: sfu.gosthk.site, skip-cert-verify: false}
-  - {name: 🇺🇸 USA-VIP-2-44-1B, server: im.lovehk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: im.lovehk.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-VIP-22-1A, server: media.gosthk.site, port: 57180, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: media.gosthk.site, skip-cert-verify: false}
-  - {name: 🇭🇰 HK-VIP-2-1B, server: turn.gosthk.site, port: 57180, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: turn.gosthk.site, skip-cert-verify: false}
-  - {name: 🇭🇰 HK-VIP-1B, server: sfu.gosthk.site, port: 57180, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: sfu.gosthk.site, skip-cert-verify: false}
-  - {name: 🇹🇼 TW-VIP-2-33-1A, server: theme.lovehk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: theme.lovehk.xyz, skip-cert-verify: false}
-  - {name: EUR-FREE-1A, server: edge.frnhk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: edge.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇸🇬 SG-FREE-1A, server: room.frnhk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: room.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇩🇪 DE-FREE-1A, server: signal.frnhk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: signal.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇲🇾 MYS-1B, server: api.frnhk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: api.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-FREE-1B, server: im.frnhk.xyz, port: 443, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: im.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-FREE-1A, server: im.frnhk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: im.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-VIP-22-1B, server: media.gosthk.site, port: 57180, type: anytls, password: 806f436b-23e8-40f6-8dbb-23e5b98abc0d, udp: true, sni: media.gosthk.site, skip-cert-verify: false}
-  - {name: 🇺🇸 USA-VIP-2-11-1A, server: signal.lovehk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: signal.lovehk.xyz, skip-cert-verify: false}
-  - {name: 🇲🇾 MYS-1A, server: api.frnhk.xyz, port: 443, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: api.frnhk.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 HK-VIP-2-1A, server: turn.gosthk.site, port: 57180, type: anytls, password: e16633c4-998f-4a80-ba4f-78c842c89a8f, udp: true, sni: turn.gosthk.site, skip-cert-verify: false}
+  - {name: 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21543, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: ac4291b9-59c8-4d55-a527-576b50e3c572, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21538, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21543, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21538, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21540, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: ac4291b9-59c8-4d55-a527-576b50e3c572, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: ac4291b9-59c8-4d55-a527-576b50e3c572, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21544, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21542, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21537, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: ac4291b9-59c8-4d55-a527-576b50e3c572, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: ac4291b9-59c8-4d55-a527-576b50e3c572, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21544, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21537, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21542, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21539, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21540, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21539, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇹🇼 TW-VIP-2-33-1B
-      - 🇺🇸 USA-VIP-2-44-1A
-      - 🇸🇬 SG-FREE-1B
-      - EUR-FREE-1B
-      - 🇩🇪 DE-FREE-1B
-      - 🇺🇸 USA-VIP-2-11-1B
-      - 🇭🇰 HK-VIP-1A
-      - 🇺🇸 USA-VIP-2-44-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇭🇰 HK-VIP-2-1B
-      - 🇭🇰 HK-VIP-1B
-      - 🇹🇼 TW-VIP-2-33-1A
-      - EUR-FREE-1A
-      - 🇸🇬 SG-FREE-1A
-      - 🇩🇪 DE-FREE-1A
-      - 🇲🇾 MYS-1B
-      - 🇯🇵 JP-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇺🇸 USA-VIP-2-11-1A
-      - 🇲🇾 MYS-1A
-      - 🇭🇰 HK-VIP-2-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点3
+      - 🇹🇼 台湾高速节点2
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点
+      - 🇺🇸 美国高速节点1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇹🇼 TW-VIP-2-33-1B
-      - 🇺🇸 USA-VIP-2-44-1A
-      - 🇸🇬 SG-FREE-1B
-      - EUR-FREE-1B
-      - 🇩🇪 DE-FREE-1B
-      - 🇺🇸 USA-VIP-2-11-1B
-      - 🇭🇰 HK-VIP-1A
-      - 🇺🇸 USA-VIP-2-44-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇭🇰 HK-VIP-2-1B
-      - 🇭🇰 HK-VIP-1B
-      - 🇹🇼 TW-VIP-2-33-1A
-      - EUR-FREE-1A
-      - 🇸🇬 SG-FREE-1A
-      - 🇩🇪 DE-FREE-1A
-      - 🇲🇾 MYS-1B
-      - 🇯🇵 JP-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇺🇸 USA-VIP-2-11-1A
-      - 🇲🇾 MYS-1A
-      - 🇭🇰 HK-VIP-2-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点3
+      - 🇹🇼 台湾高速节点2
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点
+      - 🇺🇸 美国高速节点1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇹🇼 TW-VIP-2-33-1B
-      - 🇺🇸 USA-VIP-2-44-1A
-      - 🇸🇬 SG-FREE-1B
-      - EUR-FREE-1B
-      - 🇩🇪 DE-FREE-1B
-      - 🇺🇸 USA-VIP-2-11-1B
-      - 🇭🇰 HK-VIP-1A
-      - 🇺🇸 USA-VIP-2-44-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇭🇰 HK-VIP-2-1B
-      - 🇭🇰 HK-VIP-1B
-      - 🇹🇼 TW-VIP-2-33-1A
-      - EUR-FREE-1A
-      - 🇸🇬 SG-FREE-1A
-      - 🇩🇪 DE-FREE-1A
-      - 🇲🇾 MYS-1B
-      - 🇯🇵 JP-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇺🇸 USA-VIP-2-11-1A
-      - 🇲🇾 MYS-1A
-      - 🇭🇰 HK-VIP-2-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点3
+      - 🇹🇼 台湾高速节点2
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点
+      - 🇺🇸 美国高速节点1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -128,115 +116,110 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇹🇼 TW-VIP-2-33-1B
-      - 🇺🇸 USA-VIP-2-44-1A
-      - 🇸🇬 SG-FREE-1B
-      - EUR-FREE-1B
-      - 🇩🇪 DE-FREE-1B
-      - 🇺🇸 USA-VIP-2-11-1B
-      - 🇭🇰 HK-VIP-1A
-      - 🇺🇸 USA-VIP-2-44-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇭🇰 HK-VIP-2-1B
-      - 🇭🇰 HK-VIP-1B
-      - 🇹🇼 TW-VIP-2-33-1A
-      - EUR-FREE-1A
-      - 🇸🇬 SG-FREE-1A
-      - 🇩🇪 DE-FREE-1A
-      - 🇲🇾 MYS-1B
-      - 🇯🇵 JP-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇺🇸 USA-VIP-2-11-1A
-      - 🇲🇾 MYS-1A
-      - 🇭🇰 HK-VIP-2-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点3
+      - 🇹🇼 台湾高速节点2
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点
+      - 🇺🇸 美国高速节点1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点3
+      - 🇹🇼 台湾高速节点2
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇹🇼 TW-VIP-2-33-1B
-      - 🇺🇸 USA-VIP-2-44-1A
-      - 🇸🇬 SG-FREE-1B
-      - EUR-FREE-1B
-      - 🇩🇪 DE-FREE-1B
-      - 🇺🇸 USA-VIP-2-11-1B
-      - 🇭🇰 HK-VIP-1A
-      - 🇺🇸 USA-VIP-2-44-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇭🇰 HK-VIP-2-1B
-      - 🇭🇰 HK-VIP-1B
-      - 🇹🇼 TW-VIP-2-33-1A
-      - EUR-FREE-1A
-      - 🇸🇬 SG-FREE-1A
-      - 🇩🇪 DE-FREE-1A
-      - 🇲🇾 MYS-1B
-      - 🇯🇵 JP-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇺🇸 USA-VIP-2-11-1A
-      - 🇲🇾 MYS-1A
-      - 🇭🇰 HK-VIP-2-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点3
+      - 🇹🇼 台湾高速节点2
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点
+      - 🇺🇸 美国高速节点1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇹🇼 TW-VIP-2-33-1B
-      - 🇺🇸 USA-VIP-2-44-1A
-      - 🇸🇬 SG-FREE-1B
-      - EUR-FREE-1B
-      - 🇩🇪 DE-FREE-1B
-      - 🇺🇸 USA-VIP-2-11-1B
-      - 🇭🇰 HK-VIP-1A
-      - 🇺🇸 USA-VIP-2-44-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇭🇰 HK-VIP-2-1B
-      - 🇭🇰 HK-VIP-1B
-      - 🇹🇼 TW-VIP-2-33-1A
-      - EUR-FREE-1A
-      - 🇸🇬 SG-FREE-1A
-      - 🇩🇪 DE-FREE-1A
-      - 🇲🇾 MYS-1B
-      - 🇯🇵 JP-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇺🇸 USA-VIP-2-11-1A
-      - 🇲🇾 MYS-1A
-      - 🇭🇰 HK-VIP-2-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点3
+      - 🇹🇼 台湾高速节点2
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点
+      - 🇺🇸 美国高速节点1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇹🇼 TW-VIP-2-33-1B
-      - 🇺🇸 USA-VIP-2-44-1A
-      - 🇸🇬 SG-FREE-1B
-      - EUR-FREE-1B
-      - 🇩🇪 DE-FREE-1B
-      - 🇺🇸 USA-VIP-2-11-1B
-      - 🇭🇰 HK-VIP-1A
-      - 🇺🇸 USA-VIP-2-44-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇭🇰 HK-VIP-2-1B
-      - 🇭🇰 HK-VIP-1B
-      - 🇹🇼 TW-VIP-2-33-1A
-      - EUR-FREE-1A
-      - 🇸🇬 SG-FREE-1A
-      - 🇩🇪 DE-FREE-1A
-      - 🇲🇾 MYS-1B
-      - 🇯🇵 JP-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇺🇸 USA-VIP-2-11-1A
-      - 🇲🇾 MYS-1A
-      - 🇭🇰 HK-VIP-2-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点3
+      - 🇹🇼 台湾高速节点2
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点
+      - 🇺🇸 美国高速节点1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -252,28 +235,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇹🇼 TW-VIP-2-33-1B
-      - 🇺🇸 USA-VIP-2-44-1A
-      - 🇸🇬 SG-FREE-1B
-      - EUR-FREE-1B
-      - 🇩🇪 DE-FREE-1B
-      - 🇺🇸 USA-VIP-2-11-1B
-      - 🇭🇰 HK-VIP-1A
-      - 🇺🇸 USA-VIP-2-44-1B
-      - 🇯🇵 JP-VIP-22-1A
-      - 🇭🇰 HK-VIP-2-1B
-      - 🇭🇰 HK-VIP-1B
-      - 🇹🇼 TW-VIP-2-33-1A
-      - EUR-FREE-1A
-      - 🇸🇬 SG-FREE-1A
-      - 🇩🇪 DE-FREE-1A
-      - 🇲🇾 MYS-1B
-      - 🇯🇵 JP-FREE-1B
-      - 🇯🇵 JP-FREE-1A
-      - 🇯🇵 JP-VIP-22-1B
-      - 🇺🇸 USA-VIP-2-11-1A
-      - 🇲🇾 MYS-1A
-      - 🇭🇰 HK-VIP-2-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇨🇳 中国联通节点1
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点3
+      - 🇹🇼 台湾高速节点2
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇹🇼 台湾高速节点
+      - 🇺🇸 美国高速节点1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
