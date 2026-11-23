@@ -5,79 +5,307 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21544, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21542, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21538, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21542, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21543, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21537, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21539, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21539, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21538, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21537, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21544, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21540, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21540, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21543, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21540, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 试用 2-香港 HY ×1x 限速100M-1D, server: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21538, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 试用 3-美国 HY ×1x 限速100M-1C, server: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21539, type: hysteria2, password: 69c848e4-0686-4296-990a-908b3704b227, auth: 69c848e4-0686-4296-990a-908b3704b227, sni: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 D荷兰1-YOUTUBE视频带宽足, server: ams1-dig.data-node.org, port: 2533, type: anytls, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true, sni: ams1-dig.data-node.org, skip-cert-verify: false}
+  - {name: 🇩🇪 D德国1-AI 流媒体全解锁-跨境电商, server: de1-v2.vxrelay.xyz, port: 22222, type: anytls, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true, sni: de1.vxrelay.xyz, skip-cert-verify: false}
+  - {name: 🇯🇵 专线A1-日本2, server: df.668fx.com, port: 42721, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇵🇭 D菲律宾1-AI 流媒体全解锁-跨境电商, server: ph1.vxrelay.xyz, port: 2353, type: anytls, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true, sni: ph1.vxrelay.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21543, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 专线A1-台湾1-流媒体全解锁TIKTOK优秀, server: df.668fx.com, port: 13599, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1C, server: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21544, type: hysteria2, password: 69c848e4-0686-4296-990a-908b3704b227, auth: 69c848e4-0686-4296-990a-908b3704b227, sni: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇿🇦 南非-IP原生, server: 016.weipien.icu, port: 443, type: vless, uuid: 5a318cc1-9a9d-4207-a769-a5d4c3bf27aa, tls: true, servername: 016.weipien.icu, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /xhttp-p04-2538d909, host: 016.weipien.icu, mode: packet-up}, udp: true}
+  - {name: 🇺🇸 试用 4-美国 HY ×1x 限速100M-1D, server: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21540, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 D新加坡1-移动优化, server: sgp2-dig.data-node.org, port: 2353, type: anytls, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true, sni: sgp1.vxrelay.xyz, skip-cert-verify: false}
+  - {name: 🇮🇱 以色列-特拉维夫, server: 025.weipien.icu, port: 443, type: vless, uuid: 8b37b619-6451-4286-806b-28740f97a57b, tls: true, servername: 025.weipien.icu, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /xhttp-p04-348e44ce, host: 025.weipien.icu, mode: packet-up}, udp: true}
+  - {name: 🇺🇸 专线A1-美国5-家宽CHATGPT流媒体银行全解锁, server: df.668fx.com, port: 29988, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21542, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21537, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21543, type: hysteria2, password: de59443b-ec57-45b4-93fb-7e0975e692ac, auth: de59443b-ec57-45b4-93fb-7e0975e692ac, sni: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21544, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 荷兰-阿姆斯特丹, server: 003.weipien.icu, port: 443, type: vless, uuid: a5fa1607-f219-4ead-9be0-55adefc78bbb, tls: true, servername: 003.weipien.icu, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /xhttp-p04-5ce83e1f, host: 003.weipien.icu, mode: packet-up}, udp: true}
+  - {name: 🇳🇱 专线A1-荷兰1, server: df.668fx.com, port: 23639, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21540, type: hysteria2, password: de59443b-ec57-45b4-93fb-7e0975e692ac, auth: de59443b-ec57-45b4-93fb-7e0975e692ac, sni: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 专线A1-香港4-极-PYIC-锁, server: df.668fx.com, port: 6740, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇭🇰 试用 1-香港 HY ×1x 限速100M-1D, server: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21537, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 D日本4-4.5x--TIST-行全解锁, server: jp9-gomm-n3.vxrelay.xyz, port: 36177, type: anytls, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true, sni: jp4.vxrelay.xyz, skip-cert-verify: false}
+  - {name: 🇬🇧 专线A1-伦敦3-解-PBIL-锁, server: df.668fx.com, port: 29110, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇸🇬 新加坡-西区, server: 012.weipien.icu, port: 443, type: vless, uuid: 74de639c-fae2-48a1-a1f8-3292d00baeba, tls: true, servername: 012.weipien.icu, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /xhttp-p04-3cb077e9, host: 012.weipien.icu, mode: packet-up}, udp: true}
+  - {name: 🇭🇰 专线A1-香港3-极-NPTI-锁, server: df.668fx.com, port: 49642, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇸🇬 D新加坡3-网页视频浏览, server: sgp3-lin.vxrelay.xyz, port: 2353, type: anytls, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true, sni: sgp3.vxrelay.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21538, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1C, server: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21542, type: hysteria2, password: 69c848e4-0686-4296-990a-908b3704b227, auth: 69c848e4-0686-4296-990a-908b3704b227, sni: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 专线A1-日本4-家-KIIT-好, server: df.668fx.com, port: 8641, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇺🇸 专线A1-美国4-家宽IP银行 视频全解锁, server: df.668fx.com, port: 56512, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A, server: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21539, type: hysteria2, password: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, auth: a6af3d37-8cd8-4fbb-9388-3cf7a76f8868, sni: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇵🇭 专线A1-菲律宾1, server: df.668fx.com, port: 55311, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇺🇸 专线A1-美国8-双-EPCA-等, server: df.668fx.com, port: 8135, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇭🇰 专线A1-香港2-极-YCTN-锁, server: df.668fx.com, port: 27502, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1D, server: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21542, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇪 瑞典-斯德哥尔摩, server: 018.weipien.icu, port: 443, type: vless, uuid: e4891555-9c09-49dc-80c2-61194518c77d, tls: true, servername: 018.weipien.icu, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /xhttp-p04-e9d0b6ab, host: 018.weipien.icu, mode: packet-up}, udp: true}
+  - {name: 🇰🇷 专线A1-韩国1家宽IP全解锁, server: df.668fx.com, port: 25997, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇺🇸 D美国8-3x-双I-TAEI-行全解锁, server: us8new-lis.vxrelay.xyz, port: 2383, type: anytls, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true, sni: us8.vxrelay.xyz, skip-cert-verify: false}
+  - {name: 🇻🇳 专线A1-越南1家宽住宅IP全解锁, server: df.668fx.com, port: 24308, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇰🇷 D韩国1-家宽住宅I-OIKT-秀, server: kr1-lisa.vxrelay.xyz, port: 25282, type: anytls, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true, sni: kr1-lisa.vxrelay.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 专线A1-美国2-三网优化4x, server: df.668fx.com, port: 50155, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇺🇸 专线A1-美国3-三网优化Y2B视频快, server: df.668fx.com, port: 51467, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇯🇵 专线A1-日本3-流媒体全解锁4x, server: df.668fx.com, port: 58490, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇩🇪 专线A1-德国1, server: df.668fx.com, port: 5139, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇺🇸 D美国1-网页-视频浏览, server: us1-dig.data-node.org, port: 2353, type: anytls, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true, sni: us1-dig.data-node.org, skip-cert-verify: false}
+  - {name: 🇺🇸 D美国3-网页-视频浏览, server: us3-vul.vxrelay.xyz, port: 23882, type: anytls, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true, sni: us3.vxrelay.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 专线A1-新加坡1, server: df.668fx.com, port: 35058, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21544, type: hysteria2, password: de59443b-ec57-45b4-93fb-7e0975e692ac, auth: de59443b-ec57-45b4-93fb-7e0975e692ac, sni: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 D香港2-住宅家宽IP解锁NETFLIXTVB等, server: hk2-lisa.vxrelay.xyz, port: 2353, type: anytls, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true, sni: hk2-lisa.vxrelay.xyz, skip-cert-verify: false}
+  - {name: 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1C, server: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21543, type: hysteria2, password: 69c848e4-0686-4296-990a-908b3704b227, auth: 69c848e4-0686-4296-990a-908b3704b227, sni: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 试用 4-美国 HY ×1x 限速100M-1C, server: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21540, type: hysteria2, password: 69c848e4-0686-4296-990a-908b3704b227, auth: 69c848e4-0686-4296-990a-908b3704b227, sni: snasdhj.fanajkshy40.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 D日本2-网页视频浏览, server: jp2-linode.vxrelay.xyz, port: 2222, type: anytls, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true, sni: jp2.vxrelay.xyz, skip-cert-verify: false}
+  - {name: 🇺🇸 专线A1-美国1, server: df.668fx.com, port: 25429, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21539, type: hysteria2, password: de59443b-ec57-45b4-93fb-7e0975e692ac, auth: de59443b-ec57-45b4-93fb-7e0975e692ac, sni: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1D, server: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21543, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy43.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1D, server: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21544, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy44.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 专线A1-新加坡2, server: df.668fx.com, port: 57598, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 全超时或 ERROR 为自身网络风控 几分钟就好, server: 192.0.2.1, port: 9, type: vless, uuid: 00000000-0000-4000-8000-000000000000, tls: false, network: tcp, udp: true}
+  - {name: 🇬🇧 D英国1-视频带宽足, server: lon1.vxrelay.xyz, port: 2533, type: anytls, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true, sni: lon3.vxrelay.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 试用 1-香港 HY ×1x 限速100M-1C, server: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21537, type: hysteria2, password: 69c848e4-0686-4296-990a-908b3704b227, auth: 69c848e4-0686-4296-990a-908b3704b227, sni: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 D美国2-网页-视频浏览, server: us2-dig.data-node.org, port: 2358, type: anytls, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true, sni: us2.vxrelay.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21537, type: hysteria2, password: de59443b-ec57-45b4-93fb-7e0975e692ac, auth: de59443b-ec57-45b4-93fb-7e0975e692ac, sni: snasdhj.fanajkshy37.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 试用 2-香港 HY ×1x 限速100M-1C, server: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21538, type: hysteria2, password: 69c848e4-0686-4296-990a-908b3704b227, auth: 69c848e4-0686-4296-990a-908b3704b227, sni: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21542, type: hysteria2, password: de59443b-ec57-45b4-93fb-7e0975e692ac, auth: de59443b-ec57-45b4-93fb-7e0975e692ac, sni: snasdhj.fanajkshy42.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 专线A1-新加坡3, server: df.668fx.com, port: 37923, type: ss, cipher: chacha20-ietf-poly1305, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true}
+  - {name: 🇺🇸 试用 3-美国 HY ×1x 限速100M-1D, server: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21539, type: hysteria2, password: 92adad19-2633-4b5a-8d91-bc65943fed08, auth: 92adad19-2633-4b5a-8d91-bc65943fed08, sni: snasdhj.fanajkshy39.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B, server: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, port: 21538, type: hysteria2, password: de59443b-ec57-45b4-93fb-7e0975e692ac, auth: de59443b-ec57-45b4-93fb-7e0975e692ac, sni: snasdhj.fanajkshy38.fandjlsadhlkadhlkqwdsadasjhas.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 D越南1-家宽住宅IP-流媒体全解锁TIKTOK优秀, server: vn1-lis.vxrelay.xyz, port: 2523, type: anytls, password: 179c74ea-7c03-4686-9fbf-d34deabb1f06, udp: true, sni: vn1.vxrelay.xyz, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
-      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
       - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1D
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1C
+      - 🇳🇱 D荷兰1-YOUTUBE视频带宽足
+      - 🇩🇪 D德国1-AI 流媒体全解锁-跨境电商
+      - 🇯🇵 专线A1-日本2
+      - 🇵🇭 D菲律宾1-AI 流媒体全解锁-跨境电商
       - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇹🇼 专线A1-台湾1-流媒体全解锁TIKTOK优秀
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1C
+      - 🇿🇦 南非-IP原生
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1D
+      - 🇸🇬 D新加坡1-移动优化
+      - 🇮🇱 以色列-特拉维夫
+      - 🇺🇸 专线A1-美国5-家宽CHATGPT流媒体银行全解锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇳🇱 专线A1-荷兰1
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇭🇰 专线A1-香港4-极-PYIC-锁
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1D
+      - 🇯🇵 D日本4-4.5x--TIST-行全解锁
+      - 🇬🇧 专线A1-伦敦3-解-PBIL-锁
+      - 🇸🇬 新加坡-西区
+      - 🇭🇰 专线A1-香港3-极-NPTI-锁
+      - 🇸🇬 D新加坡3-网页视频浏览
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1C
+      - 🇯🇵 专线A1-日本4-家-KIIT-好
+      - 🇺🇸 专线A1-美国4-家宽IP银行 视频全解锁
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
+      - 🇵🇭 专线A1-菲律宾1
+      - 🇺🇸 专线A1-美国8-双-EPCA-等
+      - 🇭🇰 专线A1-香港2-极-YCTN-锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇰🇷 专线A1-韩国1家宽IP全解锁
+      - 🇺🇸 D美国8-3x-双I-TAEI-行全解锁
+      - 🇻🇳 专线A1-越南1家宽住宅IP全解锁
+      - 🇰🇷 D韩国1-家宽住宅I-OIKT-秀
+      - 🇺🇸 专线A1-美国2-三网优化4x
+      - 🇺🇸 专线A1-美国3-三网优化Y2B视频快
+      - 🇯🇵 专线A1-日本3-流媒体全解锁4x
+      - 🇩🇪 专线A1-德国1
+      - 🇺🇸 D美国1-网页-视频浏览
+      - 🇺🇸 D美国3-网页-视频浏览
+      - 🇸🇬 专线A1-新加坡1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 D香港2-住宅家宽IP解锁NETFLIXTVB等
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1C
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1C
+      - 🇯🇵 D日本2-网页视频浏览
+      - 🇺🇸 专线A1-美国1
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 专线A1-新加坡2
+      - 全超时或 ERROR 为自身网络风控 几分钟就好
+      - 🇬🇧 D英国1-视频带宽足
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1C
+      - 🇺🇸 D美国2-网页-视频浏览
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1C
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 专线A1-新加坡3
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1D
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇻🇳 D越南1-家宽住宅IP-流媒体全解锁TIKTOK优秀
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
-      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
       - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1D
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1C
+      - 🇳🇱 D荷兰1-YOUTUBE视频带宽足
+      - 🇩🇪 D德国1-AI 流媒体全解锁-跨境电商
+      - 🇯🇵 专线A1-日本2
+      - 🇵🇭 D菲律宾1-AI 流媒体全解锁-跨境电商
       - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇹🇼 专线A1-台湾1-流媒体全解锁TIKTOK优秀
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1C
+      - 🇿🇦 南非-IP原生
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1D
+      - 🇸🇬 D新加坡1-移动优化
+      - 🇮🇱 以色列-特拉维夫
+      - 🇺🇸 专线A1-美国5-家宽CHATGPT流媒体银行全解锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇳🇱 专线A1-荷兰1
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇭🇰 专线A1-香港4-极-PYIC-锁
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1D
+      - 🇯🇵 D日本4-4.5x--TIST-行全解锁
+      - 🇬🇧 专线A1-伦敦3-解-PBIL-锁
+      - 🇸🇬 新加坡-西区
+      - 🇭🇰 专线A1-香港3-极-NPTI-锁
+      - 🇸🇬 D新加坡3-网页视频浏览
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1C
+      - 🇯🇵 专线A1-日本4-家-KIIT-好
+      - 🇺🇸 专线A1-美国4-家宽IP银行 视频全解锁
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
+      - 🇵🇭 专线A1-菲律宾1
+      - 🇺🇸 专线A1-美国8-双-EPCA-等
+      - 🇭🇰 专线A1-香港2-极-YCTN-锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇰🇷 专线A1-韩国1家宽IP全解锁
+      - 🇺🇸 D美国8-3x-双I-TAEI-行全解锁
+      - 🇻🇳 专线A1-越南1家宽住宅IP全解锁
+      - 🇰🇷 D韩国1-家宽住宅I-OIKT-秀
+      - 🇺🇸 专线A1-美国2-三网优化4x
+      - 🇺🇸 专线A1-美国3-三网优化Y2B视频快
+      - 🇯🇵 专线A1-日本3-流媒体全解锁4x
+      - 🇩🇪 专线A1-德国1
+      - 🇺🇸 D美国1-网页-视频浏览
+      - 🇺🇸 D美国3-网页-视频浏览
+      - 🇸🇬 专线A1-新加坡1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 D香港2-住宅家宽IP解锁NETFLIXTVB等
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1C
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1C
+      - 🇯🇵 D日本2-网页视频浏览
+      - 🇺🇸 专线A1-美国1
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 专线A1-新加坡2
+      - 全超时或 ERROR 为自身网络风控 几分钟就好
+      - 🇬🇧 D英国1-视频带宽足
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1C
+      - 🇺🇸 D美国2-网页-视频浏览
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1C
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 专线A1-新加坡3
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1D
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇻🇳 D越南1-家宽住宅IP-流媒体全解锁TIKTOK优秀
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
-      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
       - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1D
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1C
+      - 🇳🇱 D荷兰1-YOUTUBE视频带宽足
+      - 🇩🇪 D德国1-AI 流媒体全解锁-跨境电商
+      - 🇯🇵 专线A1-日本2
+      - 🇵🇭 D菲律宾1-AI 流媒体全解锁-跨境电商
       - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇹🇼 专线A1-台湾1-流媒体全解锁TIKTOK优秀
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1C
+      - 🇿🇦 南非-IP原生
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1D
+      - 🇸🇬 D新加坡1-移动优化
+      - 🇮🇱 以色列-特拉维夫
+      - 🇺🇸 专线A1-美国5-家宽CHATGPT流媒体银行全解锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇳🇱 专线A1-荷兰1
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇭🇰 专线A1-香港4-极-PYIC-锁
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1D
+      - 🇯🇵 D日本4-4.5x--TIST-行全解锁
+      - 🇬🇧 专线A1-伦敦3-解-PBIL-锁
+      - 🇸🇬 新加坡-西区
+      - 🇭🇰 专线A1-香港3-极-NPTI-锁
+      - 🇸🇬 D新加坡3-网页视频浏览
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1C
+      - 🇯🇵 专线A1-日本4-家-KIIT-好
+      - 🇺🇸 专线A1-美国4-家宽IP银行 视频全解锁
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
+      - 🇵🇭 专线A1-菲律宾1
+      - 🇺🇸 专线A1-美国8-双-EPCA-等
+      - 🇭🇰 专线A1-香港2-极-YCTN-锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇰🇷 专线A1-韩国1家宽IP全解锁
+      - 🇺🇸 D美国8-3x-双I-TAEI-行全解锁
+      - 🇻🇳 专线A1-越南1家宽住宅IP全解锁
+      - 🇰🇷 D韩国1-家宽住宅I-OIKT-秀
+      - 🇺🇸 专线A1-美国2-三网优化4x
+      - 🇺🇸 专线A1-美国3-三网优化Y2B视频快
+      - 🇯🇵 专线A1-日本3-流媒体全解锁4x
+      - 🇩🇪 专线A1-德国1
+      - 🇺🇸 D美国1-网页-视频浏览
+      - 🇺🇸 D美国3-网页-视频浏览
+      - 🇸🇬 专线A1-新加坡1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 D香港2-住宅家宽IP解锁NETFLIXTVB等
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1C
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1C
+      - 🇯🇵 D日本2-网页视频浏览
+      - 🇺🇸 专线A1-美国1
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 专线A1-新加坡2
+      - 全超时或 ERROR 为自身网络风控 几分钟就好
+      - 🇬🇧 D英国1-视频带宽足
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1C
+      - 🇺🇸 D美国2-网页-视频浏览
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1C
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 专线A1-新加坡3
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1D
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇻🇳 D越南1-家宽住宅IP-流媒体全解锁TIKTOK优秀
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -96,87 +324,324 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
-      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
       - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1D
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1C
+      - 🇳🇱 D荷兰1-YOUTUBE视频带宽足
+      - 🇩🇪 D德国1-AI 流媒体全解锁-跨境电商
+      - 🇯🇵 专线A1-日本2
+      - 🇵🇭 D菲律宾1-AI 流媒体全解锁-跨境电商
       - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇹🇼 专线A1-台湾1-流媒体全解锁TIKTOK优秀
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1C
+      - 🇿🇦 南非-IP原生
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1D
+      - 🇸🇬 D新加坡1-移动优化
+      - 🇮🇱 以色列-特拉维夫
+      - 🇺🇸 专线A1-美国5-家宽CHATGPT流媒体银行全解锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇳🇱 专线A1-荷兰1
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇭🇰 专线A1-香港4-极-PYIC-锁
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1D
+      - 🇯🇵 D日本4-4.5x--TIST-行全解锁
+      - 🇬🇧 专线A1-伦敦3-解-PBIL-锁
+      - 🇸🇬 新加坡-西区
+      - 🇭🇰 专线A1-香港3-极-NPTI-锁
+      - 🇸🇬 D新加坡3-网页视频浏览
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1C
+      - 🇯🇵 专线A1-日本4-家-KIIT-好
+      - 🇺🇸 专线A1-美国4-家宽IP银行 视频全解锁
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
+      - 🇵🇭 专线A1-菲律宾1
+      - 🇺🇸 专线A1-美国8-双-EPCA-等
+      - 🇭🇰 专线A1-香港2-极-YCTN-锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇰🇷 专线A1-韩国1家宽IP全解锁
+      - 🇺🇸 D美国8-3x-双I-TAEI-行全解锁
+      - 🇻🇳 专线A1-越南1家宽住宅IP全解锁
+      - 🇰🇷 D韩国1-家宽住宅I-OIKT-秀
+      - 🇺🇸 专线A1-美国2-三网优化4x
+      - 🇺🇸 专线A1-美国3-三网优化Y2B视频快
+      - 🇯🇵 专线A1-日本3-流媒体全解锁4x
+      - 🇩🇪 专线A1-德国1
+      - 🇺🇸 D美国1-网页-视频浏览
+      - 🇺🇸 D美国3-网页-视频浏览
+      - 🇸🇬 专线A1-新加坡1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 D香港2-住宅家宽IP解锁NETFLIXTVB等
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1C
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1C
+      - 🇯🇵 D日本2-网页视频浏览
+      - 🇺🇸 专线A1-美国1
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 专线A1-新加坡2
+      - 全超时或 ERROR 为自身网络风控 几分钟就好
+      - 🇬🇧 D英国1-视频带宽足
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1C
+      - 🇺🇸 D美国2-网页-视频浏览
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1C
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 专线A1-新加坡3
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1D
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇻🇳 D越南1-家宽住宅IP-流媒体全解锁TIKTOK优秀
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1D
+      - 🇹🇼 专线A1-台湾1-流媒体全解锁TIKTOK优秀
       - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇭🇰 专线A1-香港4-极-PYIC-锁
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1D
+      - 🇭🇰 专线A1-香港3-极-NPTI-锁
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇭🇰 专线A1-香港2-极-YCTN-锁
+      - 🇭🇰 D香港2-住宅家宽IP解锁NETFLIXTVB等
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1C
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1C
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
-      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
       - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1D
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1C
+      - 🇳🇱 D荷兰1-YOUTUBE视频带宽足
+      - 🇩🇪 D德国1-AI 流媒体全解锁-跨境电商
+      - 🇯🇵 专线A1-日本2
+      - 🇵🇭 D菲律宾1-AI 流媒体全解锁-跨境电商
       - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇹🇼 专线A1-台湾1-流媒体全解锁TIKTOK优秀
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1C
+      - 🇿🇦 南非-IP原生
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1D
+      - 🇸🇬 D新加坡1-移动优化
+      - 🇮🇱 以色列-特拉维夫
+      - 🇺🇸 专线A1-美国5-家宽CHATGPT流媒体银行全解锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇳🇱 专线A1-荷兰1
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇭🇰 专线A1-香港4-极-PYIC-锁
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1D
+      - 🇯🇵 D日本4-4.5x--TIST-行全解锁
+      - 🇬🇧 专线A1-伦敦3-解-PBIL-锁
+      - 🇸🇬 新加坡-西区
+      - 🇭🇰 专线A1-香港3-极-NPTI-锁
+      - 🇸🇬 D新加坡3-网页视频浏览
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1C
+      - 🇯🇵 专线A1-日本4-家-KIIT-好
+      - 🇺🇸 专线A1-美国4-家宽IP银行 视频全解锁
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
+      - 🇵🇭 专线A1-菲律宾1
+      - 🇺🇸 专线A1-美国8-双-EPCA-等
+      - 🇭🇰 专线A1-香港2-极-YCTN-锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇰🇷 专线A1-韩国1家宽IP全解锁
+      - 🇺🇸 D美国8-3x-双I-TAEI-行全解锁
+      - 🇻🇳 专线A1-越南1家宽住宅IP全解锁
+      - 🇰🇷 D韩国1-家宽住宅I-OIKT-秀
+      - 🇺🇸 专线A1-美国2-三网优化4x
+      - 🇺🇸 专线A1-美国3-三网优化Y2B视频快
+      - 🇯🇵 专线A1-日本3-流媒体全解锁4x
+      - 🇩🇪 专线A1-德国1
+      - 🇺🇸 D美国1-网页-视频浏览
+      - 🇺🇸 D美国3-网页-视频浏览
+      - 🇸🇬 专线A1-新加坡1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 D香港2-住宅家宽IP解锁NETFLIXTVB等
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1C
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1C
+      - 🇯🇵 D日本2-网页视频浏览
+      - 🇺🇸 专线A1-美国1
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 专线A1-新加坡2
+      - 全超时或 ERROR 为自身网络风控 几分钟就好
+      - 🇬🇧 D英国1-视频带宽足
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1C
+      - 🇺🇸 D美国2-网页-视频浏览
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1C
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 专线A1-新加坡3
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1D
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇻🇳 D越南1-家宽住宅IP-流媒体全解锁TIKTOK优秀
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
-      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
       - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1D
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1C
+      - 🇳🇱 D荷兰1-YOUTUBE视频带宽足
+      - 🇩🇪 D德国1-AI 流媒体全解锁-跨境电商
+      - 🇯🇵 专线A1-日本2
+      - 🇵🇭 D菲律宾1-AI 流媒体全解锁-跨境电商
       - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇹🇼 专线A1-台湾1-流媒体全解锁TIKTOK优秀
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1C
+      - 🇿🇦 南非-IP原生
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1D
+      - 🇸🇬 D新加坡1-移动优化
+      - 🇮🇱 以色列-特拉维夫
+      - 🇺🇸 专线A1-美国5-家宽CHATGPT流媒体银行全解锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇳🇱 专线A1-荷兰1
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇭🇰 专线A1-香港4-极-PYIC-锁
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1D
+      - 🇯🇵 D日本4-4.5x--TIST-行全解锁
+      - 🇬🇧 专线A1-伦敦3-解-PBIL-锁
+      - 🇸🇬 新加坡-西区
+      - 🇭🇰 专线A1-香港3-极-NPTI-锁
+      - 🇸🇬 D新加坡3-网页视频浏览
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1C
+      - 🇯🇵 专线A1-日本4-家-KIIT-好
+      - 🇺🇸 专线A1-美国4-家宽IP银行 视频全解锁
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
+      - 🇵🇭 专线A1-菲律宾1
+      - 🇺🇸 专线A1-美国8-双-EPCA-等
+      - 🇭🇰 专线A1-香港2-极-YCTN-锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇰🇷 专线A1-韩国1家宽IP全解锁
+      - 🇺🇸 D美国8-3x-双I-TAEI-行全解锁
+      - 🇻🇳 专线A1-越南1家宽住宅IP全解锁
+      - 🇰🇷 D韩国1-家宽住宅I-OIKT-秀
+      - 🇺🇸 专线A1-美国2-三网优化4x
+      - 🇺🇸 专线A1-美国3-三网优化Y2B视频快
+      - 🇯🇵 专线A1-日本3-流媒体全解锁4x
+      - 🇩🇪 专线A1-德国1
+      - 🇺🇸 D美国1-网页-视频浏览
+      - 🇺🇸 D美国3-网页-视频浏览
+      - 🇸🇬 专线A1-新加坡1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 D香港2-住宅家宽IP解锁NETFLIXTVB等
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1C
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1C
+      - 🇯🇵 D日本2-网页视频浏览
+      - 🇺🇸 专线A1-美国1
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 专线A1-新加坡2
+      - 全超时或 ERROR 为自身网络风控 几分钟就好
+      - 🇬🇧 D英国1-视频带宽足
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1C
+      - 🇺🇸 D美国2-网页-视频浏览
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1C
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 专线A1-新加坡3
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1D
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇻🇳 D越南1-家宽住宅IP-流媒体全解锁TIKTOK优秀
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
-      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
       - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1D
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1C
+      - 🇳🇱 D荷兰1-YOUTUBE视频带宽足
+      - 🇩🇪 D德国1-AI 流媒体全解锁-跨境电商
+      - 🇯🇵 专线A1-日本2
+      - 🇵🇭 D菲律宾1-AI 流媒体全解锁-跨境电商
       - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇹🇼 专线A1-台湾1-流媒体全解锁TIKTOK优秀
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1C
+      - 🇿🇦 南非-IP原生
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1D
+      - 🇸🇬 D新加坡1-移动优化
+      - 🇮🇱 以色列-特拉维夫
+      - 🇺🇸 专线A1-美国5-家宽CHATGPT流媒体银行全解锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇳🇱 专线A1-荷兰1
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇭🇰 专线A1-香港4-极-PYIC-锁
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1D
+      - 🇯🇵 D日本4-4.5x--TIST-行全解锁
+      - 🇬🇧 专线A1-伦敦3-解-PBIL-锁
+      - 🇸🇬 新加坡-西区
+      - 🇭🇰 专线A1-香港3-极-NPTI-锁
+      - 🇸🇬 D新加坡3-网页视频浏览
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1C
+      - 🇯🇵 专线A1-日本4-家-KIIT-好
+      - 🇺🇸 专线A1-美国4-家宽IP银行 视频全解锁
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
+      - 🇵🇭 专线A1-菲律宾1
+      - 🇺🇸 专线A1-美国8-双-EPCA-等
+      - 🇭🇰 专线A1-香港2-极-YCTN-锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇰🇷 专线A1-韩国1家宽IP全解锁
+      - 🇺🇸 D美国8-3x-双I-TAEI-行全解锁
+      - 🇻🇳 专线A1-越南1家宽住宅IP全解锁
+      - 🇰🇷 D韩国1-家宽住宅I-OIKT-秀
+      - 🇺🇸 专线A1-美国2-三网优化4x
+      - 🇺🇸 专线A1-美国3-三网优化Y2B视频快
+      - 🇯🇵 专线A1-日本3-流媒体全解锁4x
+      - 🇩🇪 专线A1-德国1
+      - 🇺🇸 D美国1-网页-视频浏览
+      - 🇺🇸 D美国3-网页-视频浏览
+      - 🇸🇬 专线A1-新加坡1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 D香港2-住宅家宽IP解锁NETFLIXTVB等
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1C
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1C
+      - 🇯🇵 D日本2-网页视频浏览
+      - 🇺🇸 专线A1-美国1
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 专线A1-新加坡2
+      - 全超时或 ERROR 为自身网络风控 几分钟就好
+      - 🇬🇧 D英国1-视频带宽足
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1C
+      - 🇺🇸 D美国2-网页-视频浏览
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1C
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 专线A1-新加坡3
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1D
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇻🇳 D越南1-家宽住宅IP-流媒体全解锁TIKTOK优秀
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -192,20 +657,77 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
-      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
-      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
-      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
-      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
-      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
       - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1D
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1C
+      - 🇳🇱 D荷兰1-YOUTUBE视频带宽足
+      - 🇩🇪 D德国1-AI 流媒体全解锁-跨境电商
+      - 🇯🇵 专线A1-日本2
+      - 🇵🇭 D菲律宾1-AI 流媒体全解锁-跨境电商
       - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1A
+      - 🇹🇼 专线A1-台湾1-流媒体全解锁TIKTOK优秀
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1C
+      - 🇿🇦 南非-IP原生
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1D
+      - 🇸🇬 D新加坡1-移动优化
+      - 🇮🇱 以色列-特拉维夫
+      - 🇺🇸 专线A1-美国5-家宽CHATGPT流媒体银行全解锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1A
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1A
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇳🇱 专线A1-荷兰1
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1B
+      - 🇭🇰 专线A1-香港4-极-PYIC-锁
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1D
+      - 🇯🇵 D日本4-4.5x--TIST-行全解锁
+      - 🇬🇧 专线A1-伦敦3-解-PBIL-锁
+      - 🇸🇬 新加坡-西区
+      - 🇭🇰 专线A1-香港3-极-NPTI-锁
+      - 🇸🇬 D新加坡3-网页视频浏览
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1A
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1C
+      - 🇯🇵 专线A1-日本4-家-KIIT-好
+      - 🇺🇸 专线A1-美国4-家宽IP银行 视频全解锁
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1A
+      - 🇵🇭 专线A1-菲律宾1
+      - 🇺🇸 专线A1-美国8-双-EPCA-等
+      - 🇭🇰 专线A1-香港2-极-YCTN-锁
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇰🇷 专线A1-韩国1家宽IP全解锁
+      - 🇺🇸 D美国8-3x-双I-TAEI-行全解锁
+      - 🇻🇳 专线A1-越南1家宽住宅IP全解锁
+      - 🇰🇷 D韩国1-家宽住宅I-OIKT-秀
+      - 🇺🇸 专线A1-美国2-三网优化4x
+      - 🇺🇸 专线A1-美国3-三网优化Y2B视频快
+      - 🇯🇵 专线A1-日本3-流媒体全解锁4x
+      - 🇩🇪 专线A1-德国1
+      - 🇺🇸 D美国1-网页-视频浏览
+      - 🇺🇸 D美国3-网页-视频浏览
+      - 🇸🇬 专线A1-新加坡1
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1B
+      - 🇭🇰 D香港2-住宅家宽IP解锁NETFLIXTVB等
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1C
+      - 🇺🇸 试用 4-美国 HY ×1x 限速100M-1C
+      - 🇯🇵 D日本2-网页视频浏览
+      - 🇺🇸 专线A1-美国1
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1B
+      - 🇸🇬 试用 7-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 试用 8-新加坡 HY ×1x 限速100M-1D
+      - 🇸🇬 专线A1-新加坡2
+      - 全超时或 ERROR 为自身网络风控 几分钟就好
+      - 🇬🇧 D英国1-视频带宽足
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1C
+      - 🇺🇸 D美国2-网页-视频浏览
+      - 🇭🇰 试用 1-香港 HY ×1x 限速100M-1B
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1C
+      - 🇸🇬 试用 6-新加坡 HY ×1x 限速100M-1B
+      - 🇸🇬 专线A1-新加坡3
+      - 🇺🇸 试用 3-美国 HY ×1x 限速100M-1D
+      - 🇭🇰 试用 2-香港 HY ×1x 限速100M-1B
+      - 🇻🇳 D越南1-家宽住宅IP-流媒体全解锁TIKTOK优秀
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
