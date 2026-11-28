@@ -5,127 +5,139 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇳🇿 新西兰 5, server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: 🇵🇱 FREEFQ-波兰 5, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X, udp: true}
-  - {name: 🇮🇳 FREEFQ-印度 10, server: 202.78.162.5, port: 443, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pendar.onthewifi.com}}, udp: true}
-  - {name: 🇮🇳 FREEFQ-印度 3, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}, udp: true}
-  - {name: 🇧🇷 巴西圣保罗 CLOUDFLARE节点, server: 188.114.98.0, port: 443, type: vless, uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227, tls: true, alpn: [http/1.1], servername: freeceshi6.frii.site, client-fingerprint: unsafe, network: ws, ws-opts: {path: /proxyip=ProxyIP.JP.CMLiussss.net, headers: {Host: freeceshi6.frii.site}}, udp: true}
-  - {name: 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
-  - {name: 🇿🇦 南非-IP原生, server: 016.weipien.icu, port: 443, type: vless, uuid: 5a318cc1-9a9d-4207-a769-a5d4c3bf27aa, tls: true, servername: 016.weipien.icu, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /xhttp-p04-2538d909, host: 016.weipien.icu, mode: packet-up}, udp: true}
+  - {name: 🇳🇱 荷兰-阿姆斯特丹, server: 003.weipien.icu, port: 443, type: vless, uuid: a5fa1607-f219-4ead-9be0-55adefc78bbb, tls: true, servername: 003.weipien.icu, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /xhttp-p04-5ce83e1f, host: 003.weipien.icu, mode: packet-up}, udp: true}
+  - {name: 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}, udp: true}
+  - {name: 🇳🇱 荷兰, server: 188.164.248.110, port: 443, type: vless, uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd, tls: true, servername: imanvipreserved.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: imanvipreserved.pages.dev}}, udp: true}
+  - {name: 🇪🇸 西班牙, server: 196.196.149.80, port: 443, type: vless, uuid: 4201786b-d99b-4147-a5f0-20d47acddb81, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE, short-id: "42426c882c5fcd41" }, servername: 7aa271t.es1.h1clayd.click, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: 🇺🇸 FREEFQ-美国FASTLY全球ANYCAST节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}, udp: true}
+  - {name: 🇨🇳 FREEFQ-广东省江门市移动 11, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
+  - {name: 🇳🇿 新西兰 3, server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇳🇿 新西兰, server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}, udp: true}
+  - {name: 🇬🇧 英国 伦敦南岸大学, server: 136.148.83.71, port: 443, type: vless, uuid: 00000000-0000-0001-0000-000000000000, tls: true, servername: wccfu-ru-79dc.my-fade.cloud, client-fingerprint: qq, network: tcp, udp: true}
+  - {name: 🇳🇿 新西兰 4, server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇮🇳 FREEFQ-印度 10, server: 202.78.162.5, port: 443, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pendar.onthewifi.com}}, udp: true}
+  - {name: 🇨🇳 FREEFQ-广东省江门市移动 12, server: service.ouluyun9803.com, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
+  - {name: 🇿🇦 南非-IP原生, server: 016.weipien.icu, port: 443, type: vless, uuid: 5a318cc1-9a9d-4207-a769-a5d4c3bf27aa, tls: true, servername: 016.weipien.icu, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /xhttp-p04-2538d909, host: 016.weipien.icu, mode: packet-up}, udp: true}
+  - {name: 🇬🇧 英国 伦敦南岸大学 2, server: 136.148.83.70, port: 443, type: vless, uuid: 00000000-0000-0001-0000-000000000000, tls: true, servername: aszbk-ru-78dc.my-fade.cloud, client-fingerprint: qq, network: tcp, udp: true}
+  - {name: 🇳🇿 新西兰 2, server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇸🇪 瑞典-斯德哥尔摩, server: 018.weipien.icu, port: 443, type: vless, uuid: e4891555-9c09-49dc-80c2-61194518c77d, tls: true, servername: 018.weipien.icu, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /xhttp-p04-e9d0b6ab, host: 018.weipien.icu, mode: packet-up}, udp: true}
+  - {name: 🇮🇱 以色列-特拉维夫, server: 025.weipien.icu, port: 443, type: vless, uuid: 8b37b619-6451-4286-806b-28740f97a57b, tls: true, servername: 025.weipien.icu, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /xhttp-p04-348e44ce, host: 025.weipien.icu, mode: packet-up}, udp: true}
+  - {name: 🇷🇺 FREEFQ-俄罗斯 1, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, udp: true}
+  - {name: 🇩🇪 德国 阿里云, server: 47.254.167.157, port: 443, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=, udp: true}
+  - {name: 🇺🇸 美国 CLOUDFLARE节点, server: 104.17.136.102, port: 2087, type: vless, uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b, tls: true, servername: rezanoori4295.pages.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: rezanoori4295.pages.dev}}, udp: true}
+  - {name: 🇮🇳 FREEFQ-印度 3, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}, udp: true}
+  - {name: 🇵🇱 FREEFQ-波兰 5, server: 193.243.147.128, port: 40368, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X, udp: true}
+  - {name: 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
   - {name: 🇺🇸 FREEFQ-美国CLOUDFLARE节点 14, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}, udp: true}
+  - {name: 🇨🇳 FREEFQ-广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}, udp: true}
   - {name: 🇸🇬 新加坡-西区, server: 012.weipien.icu, port: 443, type: vless, uuid: 74de639c-fae2-48a1-a1f8-3292d00baeba, tls: true, servername: 012.weipien.icu, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /xhttp-p04-3cb077e9, host: 012.weipien.icu, mode: packet-up}, udp: true}
   - {name: 🇮🇳 FREEFQ-印度 2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}, udp: true}
-  - {name: 🇷🇺 FREEFQ-俄罗斯 1, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, udp: true}
-  - {name: 🇸🇪 瑞典-斯德哥尔摩, server: 018.weipien.icu, port: 443, type: vless, uuid: e4891555-9c09-49dc-80c2-61194518c77d, tls: true, servername: 018.weipien.icu, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /xhttp-p04-e9d0b6ab, host: 018.weipien.icu, mode: packet-up}, udp: true}
-  - {name: 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}, udp: true}
-  - {name: 🇳🇿 新西兰, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: 🇳🇿 新西兰 4, server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: 🇳🇿 新西兰 3, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: 🇮🇱 以色列-特拉维夫, server: 025.weipien.icu, port: 443, type: vless, uuid: 8b37b619-6451-4286-806b-28740f97a57b, tls: true, servername: 025.weipien.icu, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /xhttp-p04-348e44ce, host: 025.weipien.icu, mode: packet-up}, udp: true}
-  - {name: 🇳🇱 荷兰-阿姆斯特丹, server: 003.weipien.icu, port: 443, type: vless, uuid: a5fa1607-f219-4ead-9be0-55adefc78bbb, tls: true, servername: 003.weipien.icu, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /xhttp-p04-5ce83e1f, host: 003.weipien.icu, mode: packet-up}, udp: true}
-  - {name: 🇨🇳 FREEFQ-广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}, udp: true}
   - {name: 🇨🇳 FREEFQ-广东省江门市移动 8, server: service.ouluyun9803.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
-  - {name: 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}, udp: true}
-  - {name: 🇳🇿 新西兰 2, server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: 🇬🇧 英国 伦敦南岸大学, server: 136.148.83.71, port: 443, type: vless, uuid: 00000000-0000-0001-0000-000000000000, tls: true, servername: wccfu-ru-79dc.my-fade.cloud, client-fingerprint: qq, network: tcp, udp: true}
-  - {name: 🇨🇳 FREEFQ-广东省江门市移动 12, server: service.ouluyun9803.com, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
-  - {name: 🇨🇳 FREEFQ-广东省江门市移动 11, server: service.ouluyun9803.com, port: 26667, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇿 新西兰 5
-      - 🇵🇱 FREEFQ-波兰 5
-      - 🇮🇳 FREEFQ-印度 10
-      - 🇮🇳 FREEFQ-印度 3
-      - 🇧🇷 巴西圣保罗 CLOUDFLARE节点
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
-      - 🇿🇦 南非-IP原生
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
+      - 🇳🇱 荷兰
+      - 🇪🇸 西班牙
       - 🇺🇸 FREEFQ-美国FASTLY全球ANYCAST节点 13
+      - 🇨🇳 FREEFQ-广东省江门市移动 11
+      - 🇳🇿 新西兰 3
+      - 🇳🇿 新西兰
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
+      - 🇬🇧 英国 伦敦南岸大学
+      - 🇳🇿 新西兰 4
+      - 🇮🇳 FREEFQ-印度 10
+      - 🇨🇳 FREEFQ-广东省江门市移动 12
+      - 🇿🇦 南非-IP原生
+      - 🇬🇧 英国 伦敦南岸大学 2
+      - 🇳🇿 新西兰 2
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇮🇱 以色列-特拉维夫
+      - 🇷🇺 FREEFQ-俄罗斯 1
+      - 🇩🇪 德国 阿里云
+      - 🇺🇸 美国 CLOUDFLARE节点
+      - 🇮🇳 FREEFQ-印度 3
+      - 🇵🇱 FREEFQ-波兰 5
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
       - 🇺🇸 FREEFQ-美国CLOUDFLARE节点 14
+      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇸🇬 新加坡-西区
       - 🇮🇳 FREEFQ-印度 2
-      - 🇷🇺 FREEFQ-俄罗斯 1
-      - 🇸🇪 瑞典-斯德哥尔摩
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
-      - 🇳🇿 新西兰
-      - 🇳🇿 新西兰 4
-      - 🇳🇿 新西兰 3
-      - 🇮🇱 以色列-特拉维夫
-      - 🇳🇱 荷兰-阿姆斯特丹
-      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇨🇳 FREEFQ-广东省江门市移动 8
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
-      - 🇳🇿 新西兰 2
-      - 🇬🇧 英国 伦敦南岸大学
-      - 🇨🇳 FREEFQ-广东省江门市移动 12
-      - 🇨🇳 FREEFQ-广东省江门市移动 11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇳🇿 新西兰 5
-      - 🇵🇱 FREEFQ-波兰 5
-      - 🇮🇳 FREEFQ-印度 10
-      - 🇮🇳 FREEFQ-印度 3
-      - 🇧🇷 巴西圣保罗 CLOUDFLARE节点
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
-      - 🇿🇦 南非-IP原生
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
+      - 🇳🇱 荷兰
+      - 🇪🇸 西班牙
       - 🇺🇸 FREEFQ-美国FASTLY全球ANYCAST节点 13
+      - 🇨🇳 FREEFQ-广东省江门市移动 11
+      - 🇳🇿 新西兰 3
+      - 🇳🇿 新西兰
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
+      - 🇬🇧 英国 伦敦南岸大学
+      - 🇳🇿 新西兰 4
+      - 🇮🇳 FREEFQ-印度 10
+      - 🇨🇳 FREEFQ-广东省江门市移动 12
+      - 🇿🇦 南非-IP原生
+      - 🇬🇧 英国 伦敦南岸大学 2
+      - 🇳🇿 新西兰 2
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇮🇱 以色列-特拉维夫
+      - 🇷🇺 FREEFQ-俄罗斯 1
+      - 🇩🇪 德国 阿里云
+      - 🇺🇸 美国 CLOUDFLARE节点
+      - 🇮🇳 FREEFQ-印度 3
+      - 🇵🇱 FREEFQ-波兰 5
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
       - 🇺🇸 FREEFQ-美国CLOUDFLARE节点 14
+      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇸🇬 新加坡-西区
       - 🇮🇳 FREEFQ-印度 2
-      - 🇷🇺 FREEFQ-俄罗斯 1
-      - 🇸🇪 瑞典-斯德哥尔摩
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
-      - 🇳🇿 新西兰
-      - 🇳🇿 新西兰 4
-      - 🇳🇿 新西兰 3
-      - 🇮🇱 以色列-特拉维夫
-      - 🇳🇱 荷兰-阿姆斯特丹
-      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇨🇳 FREEFQ-广东省江门市移动 8
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
-      - 🇳🇿 新西兰 2
-      - 🇬🇧 英国 伦敦南岸大学
-      - 🇨🇳 FREEFQ-广东省江门市移动 12
-      - 🇨🇳 FREEFQ-广东省江门市移动 11
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇿 新西兰 5
-      - 🇵🇱 FREEFQ-波兰 5
-      - 🇮🇳 FREEFQ-印度 10
-      - 🇮🇳 FREEFQ-印度 3
-      - 🇧🇷 巴西圣保罗 CLOUDFLARE节点
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
-      - 🇿🇦 南非-IP原生
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
+      - 🇳🇱 荷兰
+      - 🇪🇸 西班牙
       - 🇺🇸 FREEFQ-美国FASTLY全球ANYCAST节点 13
+      - 🇨🇳 FREEFQ-广东省江门市移动 11
+      - 🇳🇿 新西兰 3
+      - 🇳🇿 新西兰
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
+      - 🇬🇧 英国 伦敦南岸大学
+      - 🇳🇿 新西兰 4
+      - 🇮🇳 FREEFQ-印度 10
+      - 🇨🇳 FREEFQ-广东省江门市移动 12
+      - 🇿🇦 南非-IP原生
+      - 🇬🇧 英国 伦敦南岸大学 2
+      - 🇳🇿 新西兰 2
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇮🇱 以色列-特拉维夫
+      - 🇷🇺 FREEFQ-俄罗斯 1
+      - 🇩🇪 德国 阿里云
+      - 🇺🇸 美国 CLOUDFLARE节点
+      - 🇮🇳 FREEFQ-印度 3
+      - 🇵🇱 FREEFQ-波兰 5
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
       - 🇺🇸 FREEFQ-美国CLOUDFLARE节点 14
+      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇸🇬 新加坡-西区
       - 🇮🇳 FREEFQ-印度 2
-      - 🇷🇺 FREEFQ-俄罗斯 1
-      - 🇸🇪 瑞典-斯德哥尔摩
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
-      - 🇳🇿 新西兰
-      - 🇳🇿 新西兰 4
-      - 🇳🇿 新西兰 3
-      - 🇮🇱 以色列-特拉维夫
-      - 🇳🇱 荷兰-阿姆斯特丹
-      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇨🇳 FREEFQ-广东省江门市移动 8
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
-      - 🇳🇿 新西兰 2
-      - 🇬🇧 英国 伦敦南岸大学
-      - 🇨🇳 FREEFQ-广东省江门市移动 12
-      - 🇨🇳 FREEFQ-广东省江门市移动 11
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -144,32 +156,35 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇿 新西兰 5
-      - 🇵🇱 FREEFQ-波兰 5
-      - 🇮🇳 FREEFQ-印度 10
-      - 🇮🇳 FREEFQ-印度 3
-      - 🇧🇷 巴西圣保罗 CLOUDFLARE节点
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
-      - 🇿🇦 南非-IP原生
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
+      - 🇳🇱 荷兰
+      - 🇪🇸 西班牙
       - 🇺🇸 FREEFQ-美国FASTLY全球ANYCAST节点 13
+      - 🇨🇳 FREEFQ-广东省江门市移动 11
+      - 🇳🇿 新西兰 3
+      - 🇳🇿 新西兰
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
+      - 🇬🇧 英国 伦敦南岸大学
+      - 🇳🇿 新西兰 4
+      - 🇮🇳 FREEFQ-印度 10
+      - 🇨🇳 FREEFQ-广东省江门市移动 12
+      - 🇿🇦 南非-IP原生
+      - 🇬🇧 英国 伦敦南岸大学 2
+      - 🇳🇿 新西兰 2
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇮🇱 以色列-特拉维夫
+      - 🇷🇺 FREEFQ-俄罗斯 1
+      - 🇩🇪 德国 阿里云
+      - 🇺🇸 美国 CLOUDFLARE节点
+      - 🇮🇳 FREEFQ-印度 3
+      - 🇵🇱 FREEFQ-波兰 5
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
       - 🇺🇸 FREEFQ-美国CLOUDFLARE节点 14
+      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇸🇬 新加坡-西区
       - 🇮🇳 FREEFQ-印度 2
-      - 🇷🇺 FREEFQ-俄罗斯 1
-      - 🇸🇪 瑞典-斯德哥尔摩
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
-      - 🇳🇿 新西兰
-      - 🇳🇿 新西兰 4
-      - 🇳🇿 新西兰 3
-      - 🇮🇱 以色列-特拉维夫
-      - 🇳🇱 荷兰-阿姆斯特丹
-      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇨🇳 FREEFQ-广东省江门市移动 8
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
-      - 🇳🇿 新西兰 2
-      - 🇬🇧 英国 伦敦南岸大学
-      - 🇨🇳 FREEFQ-广东省江门市移动 12
-      - 🇨🇳 FREEFQ-广东省江门市移动 11
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -180,95 +195,104 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇳🇿 新西兰 5
-      - 🇵🇱 FREEFQ-波兰 5
-      - 🇮🇳 FREEFQ-印度 10
-      - 🇮🇳 FREEFQ-印度 3
-      - 🇧🇷 巴西圣保罗 CLOUDFLARE节点
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
-      - 🇿🇦 南非-IP原生
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
+      - 🇳🇱 荷兰
+      - 🇪🇸 西班牙
       - 🇺🇸 FREEFQ-美国FASTLY全球ANYCAST节点 13
+      - 🇨🇳 FREEFQ-广东省江门市移动 11
+      - 🇳🇿 新西兰 3
+      - 🇳🇿 新西兰
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
+      - 🇬🇧 英国 伦敦南岸大学
+      - 🇳🇿 新西兰 4
+      - 🇮🇳 FREEFQ-印度 10
+      - 🇨🇳 FREEFQ-广东省江门市移动 12
+      - 🇿🇦 南非-IP原生
+      - 🇬🇧 英国 伦敦南岸大学 2
+      - 🇳🇿 新西兰 2
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇮🇱 以色列-特拉维夫
+      - 🇷🇺 FREEFQ-俄罗斯 1
+      - 🇩🇪 德国 阿里云
+      - 🇺🇸 美国 CLOUDFLARE节点
+      - 🇮🇳 FREEFQ-印度 3
+      - 🇵🇱 FREEFQ-波兰 5
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
       - 🇺🇸 FREEFQ-美国CLOUDFLARE节点 14
+      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇸🇬 新加坡-西区
       - 🇮🇳 FREEFQ-印度 2
-      - 🇷🇺 FREEFQ-俄罗斯 1
-      - 🇸🇪 瑞典-斯德哥尔摩
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
-      - 🇳🇿 新西兰
-      - 🇳🇿 新西兰 4
-      - 🇳🇿 新西兰 3
-      - 🇮🇱 以色列-特拉维夫
-      - 🇳🇱 荷兰-阿姆斯特丹
-      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇨🇳 FREEFQ-广东省江门市移动 8
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
-      - 🇳🇿 新西兰 2
-      - 🇬🇧 英国 伦敦南岸大学
-      - 🇨🇳 FREEFQ-广东省江门市移动 12
-      - 🇨🇳 FREEFQ-广东省江门市移动 11
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇳🇿 新西兰 5
-      - 🇵🇱 FREEFQ-波兰 5
-      - 🇮🇳 FREEFQ-印度 10
-      - 🇮🇳 FREEFQ-印度 3
-      - 🇧🇷 巴西圣保罗 CLOUDFLARE节点
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
-      - 🇿🇦 南非-IP原生
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
+      - 🇳🇱 荷兰
+      - 🇪🇸 西班牙
       - 🇺🇸 FREEFQ-美国FASTLY全球ANYCAST节点 13
+      - 🇨🇳 FREEFQ-广东省江门市移动 11
+      - 🇳🇿 新西兰 3
+      - 🇳🇿 新西兰
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
+      - 🇬🇧 英国 伦敦南岸大学
+      - 🇳🇿 新西兰 4
+      - 🇮🇳 FREEFQ-印度 10
+      - 🇨🇳 FREEFQ-广东省江门市移动 12
+      - 🇿🇦 南非-IP原生
+      - 🇬🇧 英国 伦敦南岸大学 2
+      - 🇳🇿 新西兰 2
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇮🇱 以色列-特拉维夫
+      - 🇷🇺 FREEFQ-俄罗斯 1
+      - 🇩🇪 德国 阿里云
+      - 🇺🇸 美国 CLOUDFLARE节点
+      - 🇮🇳 FREEFQ-印度 3
+      - 🇵🇱 FREEFQ-波兰 5
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
       - 🇺🇸 FREEFQ-美国CLOUDFLARE节点 14
+      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇸🇬 新加坡-西区
       - 🇮🇳 FREEFQ-印度 2
-      - 🇷🇺 FREEFQ-俄罗斯 1
-      - 🇸🇪 瑞典-斯德哥尔摩
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
-      - 🇳🇿 新西兰
-      - 🇳🇿 新西兰 4
-      - 🇳🇿 新西兰 3
-      - 🇮🇱 以色列-特拉维夫
-      - 🇳🇱 荷兰-阿姆斯特丹
-      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇨🇳 FREEFQ-广东省江门市移动 8
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
-      - 🇳🇿 新西兰 2
-      - 🇬🇧 英国 伦敦南岸大学
-      - 🇨🇳 FREEFQ-广东省江门市移动 12
-      - 🇨🇳 FREEFQ-广东省江门市移动 11
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇿 新西兰 5
-      - 🇵🇱 FREEFQ-波兰 5
-      - 🇮🇳 FREEFQ-印度 10
-      - 🇮🇳 FREEFQ-印度 3
-      - 🇧🇷 巴西圣保罗 CLOUDFLARE节点
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
-      - 🇿🇦 南非-IP原生
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
+      - 🇳🇱 荷兰
+      - 🇪🇸 西班牙
       - 🇺🇸 FREEFQ-美国FASTLY全球ANYCAST节点 13
+      - 🇨🇳 FREEFQ-广东省江门市移动 11
+      - 🇳🇿 新西兰 3
+      - 🇳🇿 新西兰
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
+      - 🇬🇧 英国 伦敦南岸大学
+      - 🇳🇿 新西兰 4
+      - 🇮🇳 FREEFQ-印度 10
+      - 🇨🇳 FREEFQ-广东省江门市移动 12
+      - 🇿🇦 南非-IP原生
+      - 🇬🇧 英国 伦敦南岸大学 2
+      - 🇳🇿 新西兰 2
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇮🇱 以色列-特拉维夫
+      - 🇷🇺 FREEFQ-俄罗斯 1
+      - 🇩🇪 德国 阿里云
+      - 🇺🇸 美国 CLOUDFLARE节点
+      - 🇮🇳 FREEFQ-印度 3
+      - 🇵🇱 FREEFQ-波兰 5
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
       - 🇺🇸 FREEFQ-美国CLOUDFLARE节点 14
+      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇸🇬 新加坡-西区
       - 🇮🇳 FREEFQ-印度 2
-      - 🇷🇺 FREEFQ-俄罗斯 1
-      - 🇸🇪 瑞典-斯德哥尔摩
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
-      - 🇳🇿 新西兰
-      - 🇳🇿 新西兰 4
-      - 🇳🇿 新西兰 3
-      - 🇮🇱 以色列-特拉维夫
-      - 🇳🇱 荷兰-阿姆斯特丹
-      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇨🇳 FREEFQ-广东省江门市移动 8
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
-      - 🇳🇿 新西兰 2
-      - 🇬🇧 英国 伦敦南岸大学
-      - 🇨🇳 FREEFQ-广东省江门市移动 12
-      - 🇨🇳 FREEFQ-广东省江门市移动 11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -284,32 +308,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇿 新西兰 5
-      - 🇵🇱 FREEFQ-波兰 5
-      - 🇮🇳 FREEFQ-印度 10
-      - 🇮🇳 FREEFQ-印度 3
-      - 🇧🇷 巴西圣保罗 CLOUDFLARE节点
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
-      - 🇿🇦 南非-IP原生
+      - 🇳🇱 荷兰-阿姆斯特丹
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
+      - 🇳🇱 荷兰
+      - 🇪🇸 西班牙
       - 🇺🇸 FREEFQ-美国FASTLY全球ANYCAST节点 13
+      - 🇨🇳 FREEFQ-广东省江门市移动 11
+      - 🇳🇿 新西兰 3
+      - 🇳🇿 新西兰
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
+      - 🇬🇧 英国 伦敦南岸大学
+      - 🇳🇿 新西兰 4
+      - 🇮🇳 FREEFQ-印度 10
+      - 🇨🇳 FREEFQ-广东省江门市移动 12
+      - 🇿🇦 南非-IP原生
+      - 🇬🇧 英国 伦敦南岸大学 2
+      - 🇳🇿 新西兰 2
+      - 🇸🇪 瑞典-斯德哥尔摩
+      - 🇮🇱 以色列-特拉维夫
+      - 🇷🇺 FREEFQ-俄罗斯 1
+      - 🇩🇪 德国 阿里云
+      - 🇺🇸 美国 CLOUDFLARE节点
+      - 🇮🇳 FREEFQ-印度 3
+      - 🇵🇱 FREEFQ-波兰 5
+      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 4
       - 🇺🇸 FREEFQ-美国CLOUDFLARE节点 14
+      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇸🇬 新加坡-西区
       - 🇮🇳 FREEFQ-印度 2
-      - 🇷🇺 FREEFQ-俄罗斯 1
-      - 🇸🇪 瑞典-斯德哥尔摩
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 9
-      - 🇳🇿 新西兰
-      - 🇳🇿 新西兰 4
-      - 🇳🇿 新西兰 3
-      - 🇮🇱 以色列-特拉维夫
-      - 🇳🇱 荷兰-阿姆斯特丹
-      - 🇨🇳 FREEFQ-广东省移动 7
       - 🇨🇳 FREEFQ-广东省江门市移动 8
-      - 🇺🇸 FREEFQ-美国CLOUDFLARE公司CDN节点 6
-      - 🇳🇿 新西兰 2
-      - 🇬🇧 英国 伦敦南岸大学
-      - 🇨🇳 FREEFQ-广东省江门市移动 12
-      - 🇨🇳 FREEFQ-广东省江门市移动 11
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
